@@ -1,0 +1,188 @@
+{
+  "campaigns": {
+    "self-summoning-demon": {
+      "events": 34263,
+      "users": 1900,
+      "note": "TOP CAMPAIGN \u2014 67.6% of attributed traffic"
+    },
+    "reader-mage": {
+      "events": 5537,
+      "users": 367,
+      "note": "was believed to be top campaign \u2014 CORRECTED: #2"
+    },
+    "unmade": {
+      "events": 4975,
+      "users": 286
+    },
+    "gu-demon-king": {
+      "events": 4187,
+      "users": 246
+    },
+    "weakest-kobold": {
+      "events": 3090,
+      "users": 176
+    },
+    "failed-hero-journey": {
+      "events": 1792,
+      "users": 167
+    },
+    "inertia-beneath-starlit-veil": {
+      "events": 1118,
+      "users": 83
+    },
+    "novelpedia": {
+      "events": 1041,
+      "users": 14
+    },
+    "origins-of-blood": {
+      "events": 408,
+      "users": 34
+    },
+    "novelpedia-launch": {
+      "events": 411,
+      "users": 2
+    },
+    "arc-of-the-souls": {
+      "events": 277,
+      "users": 23
+    },
+    "Illusia MOU": {
+      "events": 138,
+      "users": 3
+    }
+  },
+  "sources": {
+    "aads-novelfire": {
+      "events": 56449,
+      "users": 2782,
+      "note": "DOMINANT \u2014 99.0% of attributed traffic"
+    },
+    "findnovel": {
+      "events": 239,
+      "users": 22,
+      "note": "secondary partner"
+    },
+    "Illusia": {
+      "events": 138,
+      "users": 3
+    },
+    "aads-freewebnovel": {
+      "events": 411,
+      "users": 2
+    },
+    "summer": {
+      "events": 270,
+      "users": 1
+    }
+  },
+  "countries": {
+    "US": {
+      "events": 61314,
+      "users": 2825,
+      "tier": "TIER_1"
+    },
+    "IN": {
+      "events": 34404,
+      "users": 714,
+      "tier": "TIER_1"
+    },
+    "GB": {
+      "events": 9640,
+      "users": 466,
+      "tier": "TIER_1"
+    },
+    "BR": {
+      "events": 8180,
+      "users": 205,
+      "tier": "TIER_2"
+    },
+    "NG": {
+      "events": 5198,
+      "users": 105,
+      "tier": "TIER_2"
+    },
+    "CA": {
+      "events": 4260,
+      "users": 123,
+      "tier": "TIER_2"
+    },
+    "PH": {
+      "events": 4062,
+      "users": 135,
+      "tier": "TIER_2"
+    },
+    "DE": {
+      "events": 4889,
+      "users": 190,
+      "tier": "TIER_2"
+    },
+    "NL": {
+      "events": 10332,
+      "users": 77,
+      "tier": "TIER_2"
+    },
+    "SG": {
+      "events": 1604,
+      "users": 101,
+      "tier": "TIER_2"
+    },
+    "ID": {
+      "events": 1791,
+      "users": 99,
+      "tier": "TIER_2"
+    }
+  },
+  "variants": {
+    "gif-v3": {
+      "events": 750,
+      "note": "highest performing variant"
+    },
+    "static-v2": {
+      "events": 637
+    },
+    "trial-static-v1": {
+      "events": 599
+    },
+    "static-v3": {
+      "events": 549
+    },
+    "gif-v2": {
+      "events": 214
+    },
+    "gif-v1": {
+      "events": 67,
+      "note": "lowest \u2014 candidate for retirement"
+    }
+  },
+  "hosts": {
+    "novelpedia.net": {
+      "role": "reader_app",
+      "events_approx": "170k",
+      "note": "PRIMARY"
+    },
+    "author.novelpedia.net": {
+      "role": "author_dashboard",
+      "events_approx": "300",
+      "note": "low volume expected"
+    },
+    "demo.novelpedia.net": {
+      "role": "staging",
+      "events_approx": "77",
+      "note": "negligible \u2014 exclude from production metrics"
+    }
+  },
+  "partners": {
+    "209644_2385223": 697,
+    "209600_2404108": 639,
+    "209636_2385223": 586,
+    "209646_2385223": 564,
+    "209566_2404108": 206,
+    "209600_2385223": 83,
+    "209600_2420120": 80,
+    "209559_2404108": 57,
+    "209638_2385223": 36,
+    "209634_2385223": 10,
+    "209566_2385223": 8,
+    "209566_2420120": 7
+  }
+}

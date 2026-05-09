@@ -1,0 +1,1090 @@
+{
+  "metadata": {
+    "period": "30 days",
+    "generated": "2026-04-29",
+    "total_events": 206489,
+    "total_event_types": 44,
+    "total_distinct_users": 5405
+  },
+  "events": {
+    "$autocapture": {
+      "count_30d": 62172,
+      "users_30d": 2659,
+      "event_utm_pct": 13.6,
+      "person_utm_pct": 17.0,
+      "gap_pp": 3.4,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$pageview": {
+      "count_30d": 39741,
+      "users_30d": 5405,
+      "event_utm_pct": 21.2,
+      "person_utm_pct": 24.4,
+      "gap_pp": 3.2,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "novel_detail_viewed": {
+      "count_30d": 26527,
+      "users_30d": 3998,
+      "event_utm_pct": 72.3,
+      "person_utm_pct": 48.8,
+      "gap_pp": -23.5,
+      "verdict": "PARTIAL",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "app_opened": {
+      "count_30d": 17864,
+      "users_30d": 4707,
+      "event_utm_pct": 52.7,
+      "person_utm_pct": 39.5,
+      "gap_pp": -13.2,
+      "verdict": "PARTIAL",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$web_vitals": {
+      "count_30d": 15216,
+      "users_30d": 3549,
+      "event_utm_pct": 25.7,
+      "person_utm_pct": 29.2,
+      "gap_pp": 3.5,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$pageleave": {
+      "count_30d": 9219,
+      "users_30d": 4407,
+      "event_utm_pct": 40.2,
+      "person_utm_pct": 34.0,
+      "gap_pp": -6.2,
+      "verdict": "PARTIAL",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$set": {
+      "count_30d": 5050,
+      "users_30d": 2881,
+      "event_utm_pct": 80.2,
+      "person_utm_pct": 80.2,
+      "gap_pp": 0.0,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$exception": {
+      "count_30d": 4533,
+      "users_30d": 3595,
+      "event_utm_pct": 4.0,
+      "person_utm_pct": 4.7,
+      "gap_pp": 0.7,
+      "verdict": "DARK",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "chapter_opened": {
+      "count_30d": 4517,
+      "users_30d": 608,
+      "event_utm_pct": 34.4,
+      "person_utm_pct": 54.8,
+      "gap_pp": 20.4,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "novel_card_clicked": {
+      "count_30d": 3525,
+      "users_30d": 743,
+      "event_utm_pct": 8.5,
+      "person_utm_pct": 12.9,
+      "gap_pp": 4.4,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "carousel_clicked": {
+      "count_30d": 2308,
+      "users_30d": 612,
+      "event_utm_pct": 9.0,
+      "person_utm_pct": 15.0,
+      "gap_pp": 6.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "streak_milestone_reached": {
+      "count_30d": 1731,
+      "users_30d": 319,
+      "event_utm_pct": 3.0,
+      "person_utm_pct": 11.0,
+      "gap_pp": 8.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "chapter_completed": {
+      "count_30d": 1382,
+      "users_30d": 270,
+      "event_utm_pct": 36.3,
+      "person_utm_pct": 56.5,
+      "gap_pp": 20.2,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "install_prompt_shown": {
+      "count_30d": 1191,
+      "users_30d": 1153,
+      "event_utm_pct": 41.9,
+      "person_utm_pct": 39.3,
+      "gap_pp": -2.6,
+      "verdict": "PARTIAL",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$rageclick": {
+      "count_30d": 723,
+      "users_30d": 282,
+      "event_utm_pct": 14.8,
+      "person_utm_pct": 16.2,
+      "gap_pp": 1.4,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "registration_nudge_shown": {
+      "count_30d": 659,
+      "users_30d": 210,
+      "event_utm_pct": 23.8,
+      "person_utm_pct": 53.1,
+      "gap_pp": 29.3,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "install_prompt_dismissed": {
+      "count_30d": 207,
+      "users_30d": 206,
+      "event_utm_pct": 21.7,
+      "person_utm_pct": 17.4,
+      "gap_pp": -4.3,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "chapter_published": {
+      "count_30d": 205,
+      "users_30d": 20,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "DARK",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "$identify": {
+      "count_30d": 202,
+      "users_30d": 116,
+      "event_utm_pct": 1.5,
+      "person_utm_pct": 1.5,
+      "gap_pp": 0.0,
+      "verdict": "DARK",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "profile_completed": {
+      "count_30d": 198,
+      "users_30d": 197,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 1.5,
+      "gap_pp": 1.5,
+      "verdict": "DARK",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": true,
+      "reader_engagement": false
+    },
+    "registration_nudge_dismissed": {
+      "count_30d": 197,
+      "users_30d": 159,
+      "event_utm_pct": 41.6,
+      "person_utm_pct": 64.5,
+      "gap_pp": 22.9,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "user_registered": {
+      "count_30d": 191,
+      "users_30d": 191,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "BROKEN",
+      "tier": "CRITICAL",
+      "fix_priority": "IMMEDIATE",
+      "author_side": false,
+      "server_side": true,
+      "reader_engagement": false
+    },
+    "notification_clicked": {
+      "count_30d": 153,
+      "users_30d": 35,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 3.3,
+      "gap_pp": 3.3,
+      "verdict": "DARK",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "reply_click": {
+      "count_30d": 63,
+      "users_30d": 16,
+      "event_utm_pct": 6.3,
+      "person_utm_pct": 7.9,
+      "gap_pp": 1.6,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "comment_created": {
+      "count_30d": 60,
+      "users_30d": 21,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "DARK",
+      "tier": "WARNING",
+      "fix_priority": "EVENTUAL",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "install_completed": {
+      "count_30d": 54,
+      "users_30d": 34,
+      "event_utm_pct": 9.3,
+      "person_utm_pct": 18.5,
+      "gap_pp": 9.2,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "reply_submit_success": {
+      "count_30d": 46,
+      "users_30d": 13,
+      "event_utm_pct": 4.3,
+      "person_utm_pct": 6.5,
+      "gap_pp": 2.2,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "install_prompt_clicked": {
+      "count_30d": 39,
+      "users_30d": 38,
+      "event_utm_pct": 2.6,
+      "person_utm_pct": 2.6,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "author_profile_created": {
+      "count_30d": 38,
+      "users_30d": 1,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": true,
+      "reader_engagement": false
+    },
+    "user_identified": {
+      "count_30d": 38,
+      "users_30d": 1,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": true,
+      "reader_engagement": false
+    },
+    "report_open": {
+      "count_30d": 31,
+      "users_30d": 7,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 16.1,
+      "gap_pp": 16.1,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "report_submit": {
+      "count_30d": 26,
+      "users_30d": 4,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 19.2,
+      "gap_pp": 19.2,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "share_clicked": {
+      "count_30d": 25,
+      "users_30d": 16,
+      "event_utm_pct": 16.0,
+      "person_utm_pct": 16.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "novel_created": {
+      "count_30d": 25,
+      "users_30d": 21,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "novel_published": {
+      "count_30d": 22,
+      "users_30d": 19,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "review_submitted": {
+      "count_30d": 20,
+      "users_30d": 13,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "novel_followed": {
+      "count_30d": 19,
+      "users_30d": 13,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "registration_nudge_clicked": {
+      "count_30d": 13,
+      "users_30d": 13,
+      "event_utm_pct": 38.5,
+      "person_utm_pct": 61.5,
+      "gap_pp": 23.0,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    },
+    "import_request_created": {
+      "count_30d": 8,
+      "users_30d": 7,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": true,
+      "reader_engagement": false
+    },
+    "content_flagged": {
+      "count_30d": 8,
+      "users_30d": 4,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "image_uploaded": {
+      "count_30d": 8,
+      "users_30d": 1,
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "gap_pp": 0.0,
+      "verdict": "LOW",
+      "tier": "INFO",
+      "fix_priority": "DEFER",
+      "author_side": true,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "thread_collapse_toggle": {
+      "count_30d": 4,
+      "users_30d": 2,
+      "event_utm_pct": 50.0,
+      "person_utm_pct": 100.0,
+      "gap_pp": 50.0,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": false
+    },
+    "reply_submit_fail": {
+      "count_30d": 1,
+      "users_30d": 1,
+      "event_utm_pct": 100.0,
+      "person_utm_pct": 100.0,
+      "gap_pp": 0.0,
+      "verdict": "GOOD",
+      "tier": "HEALTHY",
+      "fix_priority": "NONE",
+      "author_side": false,
+      "server_side": false,
+      "reader_engagement": true
+    }
+  },
+  "campaigns": {
+    "self-summoning-demon": {
+      "events_30d": 34263,
+      "users_30d": 1900
+    },
+    "reader-mage": {
+      "events_30d": 5537,
+      "users_30d": 367
+    },
+    "unmade": {
+      "events_30d": 4975,
+      "users_30d": 286
+    },
+    "gu-demon-king": {
+      "events_30d": 4187,
+      "users_30d": 246
+    },
+    "weakest-kobold": {
+      "events_30d": 3090,
+      "users_30d": 176
+    },
+    "failed-hero-journey": {
+      "events_30d": 1792,
+      "users_30d": 167
+    },
+    "inertia-beneath-starlit-veil": {
+      "events_30d": 1118,
+      "users_30d": 83
+    },
+    "origins-of-blood": {
+      "events_30d": 408,
+      "users_30d": 34
+    },
+    "arc-of-the-souls": {
+      "events_30d": 277,
+      "users_30d": 23
+    },
+    "novelpedia": {
+      "events_30d": 1041,
+      "users_30d": 14
+    },
+    "Illusia MOU": {
+      "events_30d": 138,
+      "users_30d": 3
+    },
+    "novelpedia-launch": {
+      "events_30d": 411,
+      "users_30d": 2
+    }
+  },
+  "sources": {
+    "aads-novelfire": {
+      "events_30d": 56449,
+      "users_30d": 2782
+    },
+    "findnovel": {
+      "events_30d": 239,
+      "users_30d": 22
+    },
+    "Illusia": {
+      "events_30d": 138,
+      "users_30d": 3
+    },
+    "aads-freewebnovel": {
+      "events_30d": 411,
+      "users_30d": 2
+    },
+    "summer": {
+      "events_30d": 270,
+      "users_30d": 1
+    }
+  },
+  "countries": {
+    "United States": {
+      "events_30d": 61314,
+      "users_30d": 2825,
+      "tier": "TIER_1"
+    },
+    "India": {
+      "events_30d": 34404,
+      "users_30d": 714,
+      "tier": "TIER_1"
+    },
+    "United Kingdom": {
+      "events_30d": 9640,
+      "users_30d": 466,
+      "tier": "TIER_1"
+    },
+    "Brazil": {
+      "events_30d": 8180,
+      "users_30d": 205,
+      "tier": "TIER_1"
+    },
+    "Nigeria": {
+      "events_30d": 5198,
+      "users_30d": 105,
+      "tier": "TIER_2"
+    },
+    "Canada": {
+      "events_30d": 4260,
+      "users_30d": 123,
+      "tier": "TIER_2"
+    },
+    "Philippines": {
+      "events_30d": 4062,
+      "users_30d": 135,
+      "tier": "TIER_2"
+    },
+    "Germany": {
+      "events_30d": 4889,
+      "users_30d": 190,
+      "tier": "TIER_2"
+    },
+    "Netherlands": {
+      "events_30d": 10332,
+      "users_30d": 77,
+      "tier": "TIER_2"
+    },
+    "Singapore": {
+      "events_30d": 1604,
+      "users_30d": 101,
+      "tier": "TIER_2"
+    },
+    "Indonesia": {
+      "events_30d": 1791,
+      "users_30d": 99,
+      "tier": "TIER_2"
+    },
+    "Australia": {
+      "events_30d": 2204,
+      "users_30d": 42,
+      "tier": "TIER_3"
+    },
+    "Vietnam": {
+      "events_30d": 2571,
+      "users_30d": 62,
+      "tier": "TIER_2"
+    },
+    "Malaysia": {
+      "events_30d": 1621,
+      "users_30d": 49,
+      "tier": "TIER_3"
+    },
+    "Nepal": {
+      "events_30d": 2082,
+      "users_30d": 44,
+      "tier": "TIER_3"
+    },
+    "South Africa": {
+      "events_30d": 1550,
+      "users_30d": 38,
+      "tier": "TIER_3"
+    },
+    "Bangladesh": {
+      "events_30d": 1310,
+      "users_30d": 38,
+      "tier": "TIER_3"
+    },
+    "Pakistan": {
+      "events_30d": 683,
+      "users_30d": 35,
+      "tier": "TIER_3"
+    },
+    "France": {
+      "events_30d": 1145,
+      "users_30d": 34,
+      "tier": "TIER_3"
+    },
+    "Poland": {
+      "events_30d": 739,
+      "users_30d": 34,
+      "tier": "TIER_3"
+    },
+    "Ghana": {
+      "events_30d": 1199,
+      "users_30d": 31,
+      "tier": "TIER_3"
+    },
+    "Sweden": {
+      "events_30d": 1659,
+      "users_30d": 30,
+      "tier": "TIER_3"
+    },
+    "Spain": {
+      "events_30d": 1104,
+      "users_30d": 29,
+      "tier": "TIER_3"
+    },
+    "Montenegro": {
+      "events_30d": 3113,
+      "users_30d": 28,
+      "tier": "TIER_3"
+    },
+    "Portugal": {
+      "events_30d": 1551,
+      "users_30d": 28,
+      "tier": "TIER_3"
+    },
+    "Egypt": {
+      "events_30d": 1089,
+      "users_30d": 27,
+      "tier": "TIER_3"
+    },
+    "Israel": {
+      "events_30d": 493,
+      "users_30d": 25,
+      "tier": "TIER_3"
+    },
+    "United Arab Emirates": {
+      "events_30d": 260,
+      "users_30d": 24,
+      "tier": "TIER_3"
+    },
+    "Italy": {
+      "events_30d": 1092,
+      "users_30d": 22,
+      "tier": "TIER_3"
+    },
+    "Kenya": {
+      "events_30d": 421,
+      "users_30d": 17,
+      "tier": "TIER_4"
+    }
+  },
+  "bugs": [
+    {
+      "event": "user_registered",
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "severity": "CRITICAL",
+      "description": "Registration completely unattributable at both event and person level.",
+      "fix": "Persist UTM to $initial_utm_* on person profile at first $pageview for ALL users including anonymous."
+    },
+    {
+      "event": "chapter_completed",
+      "event_utm_pct": 36.3,
+      "person_utm_pct": 56.5,
+      "unattributed_pct": 43.5,
+      "severity": "WARNING",
+      "description": "43.5% of chapter completions unattributable. Author dopamine signal partially dark.",
+      "fix": "Same as chapter_opened \u2014 ensure UTM persists on person profile for anonymous sessions."
+    },
+    {
+      "event": "chapter_opened",
+      "event_utm_pct": 34.4,
+      "person_utm_pct": 54.8,
+      "unattributed_pct": 45.2,
+      "severity": "WARNING",
+      "description": "45.2% of chapter opens unattributable. Anonymous session UTM not being saved to person profile.",
+      "fix": "Call posthog.identify() with $initial_utm_* on first session for all users."
+    },
+    {
+      "event": "comment_created",
+      "event_utm_pct": 0.0,
+      "person_utm_pct": 0.0,
+      "severity": "WARNING",
+      "description": "60 comments in 30 days \u2014 all unattributable. Author engagement signal dark.",
+      "fix": "Same UTM persistence fix as above will cover comment attribution too."
+    }
+  ],
+  "attribution_map": {
+    "$autocapture": {
+      "event_utm": 13.6,
+      "person_utm": 17.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "$pageview": {
+      "event_utm": 21.2,
+      "person_utm": 24.4,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "novel_detail_viewed": {
+      "event_utm": 72.3,
+      "person_utm": 48.8,
+      "verdict": "PARTIAL",
+      "fix_priority": "EVENTUAL"
+    },
+    "app_opened": {
+      "event_utm": 52.7,
+      "person_utm": 39.5,
+      "verdict": "PARTIAL",
+      "fix_priority": "EVENTUAL"
+    },
+    "$web_vitals": {
+      "event_utm": 25.7,
+      "person_utm": 29.2,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "$pageleave": {
+      "event_utm": 40.2,
+      "person_utm": 34.0,
+      "verdict": "PARTIAL",
+      "fix_priority": "EVENTUAL"
+    },
+    "$set": {
+      "event_utm": 80.2,
+      "person_utm": 80.2,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "$exception": {
+      "event_utm": 4.0,
+      "person_utm": 4.7,
+      "verdict": "DARK",
+      "fix_priority": "EVENTUAL"
+    },
+    "chapter_opened": {
+      "event_utm": 34.4,
+      "person_utm": 54.8,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "novel_card_clicked": {
+      "event_utm": 8.5,
+      "person_utm": 12.9,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "carousel_clicked": {
+      "event_utm": 9.0,
+      "person_utm": 15.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "streak_milestone_reached": {
+      "event_utm": 3.0,
+      "person_utm": 11.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "chapter_completed": {
+      "event_utm": 36.3,
+      "person_utm": 56.5,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "install_prompt_shown": {
+      "event_utm": 41.9,
+      "person_utm": 39.3,
+      "verdict": "PARTIAL",
+      "fix_priority": "EVENTUAL"
+    },
+    "$rageclick": {
+      "event_utm": 14.8,
+      "person_utm": 16.2,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "registration_nudge_shown": {
+      "event_utm": 23.8,
+      "person_utm": 53.1,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "install_prompt_dismissed": {
+      "event_utm": 21.7,
+      "person_utm": 17.4,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "chapter_published": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "DARK",
+      "fix_priority": "EVENTUAL"
+    },
+    "$identify": {
+      "event_utm": 1.5,
+      "person_utm": 1.5,
+      "verdict": "DARK",
+      "fix_priority": "EVENTUAL"
+    },
+    "profile_completed": {
+      "event_utm": 0.0,
+      "person_utm": 1.5,
+      "verdict": "DARK",
+      "fix_priority": "EVENTUAL"
+    },
+    "registration_nudge_dismissed": {
+      "event_utm": 41.6,
+      "person_utm": 64.5,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "user_registered": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "BROKEN",
+      "fix_priority": "IMMEDIATE"
+    },
+    "notification_clicked": {
+      "event_utm": 0.0,
+      "person_utm": 3.3,
+      "verdict": "DARK",
+      "fix_priority": "EVENTUAL"
+    },
+    "reply_click": {
+      "event_utm": 6.3,
+      "person_utm": 7.9,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "comment_created": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "DARK",
+      "fix_priority": "EVENTUAL"
+    },
+    "install_completed": {
+      "event_utm": 9.3,
+      "person_utm": 18.5,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "reply_submit_success": {
+      "event_utm": 4.3,
+      "person_utm": 6.5,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "install_prompt_clicked": {
+      "event_utm": 2.6,
+      "person_utm": 2.6,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "author_profile_created": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "user_identified": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "report_open": {
+      "event_utm": 0.0,
+      "person_utm": 16.1,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "report_submit": {
+      "event_utm": 0.0,
+      "person_utm": 19.2,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "share_clicked": {
+      "event_utm": 16.0,
+      "person_utm": 16.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "novel_created": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "novel_published": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "review_submitted": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "novel_followed": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "registration_nudge_clicked": {
+      "event_utm": 38.5,
+      "person_utm": 61.5,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "import_request_created": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "content_flagged": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "image_uploaded": {
+      "event_utm": 0.0,
+      "person_utm": 0.0,
+      "verdict": "LOW",
+      "fix_priority": "DEFER"
+    },
+    "thread_collapse_toggle": {
+      "event_utm": 50.0,
+      "person_utm": 100.0,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    },
+    "reply_submit_fail": {
+      "event_utm": 100.0,
+      "person_utm": 100.0,
+      "verdict": "GOOD",
+      "fix_priority": "NONE"
+    }
+  }
+}

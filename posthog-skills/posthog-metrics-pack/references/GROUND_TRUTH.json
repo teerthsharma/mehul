@@ -1,0 +1,366 @@
+{
+  "events": {
+    "chapter_opened": {
+      "description": "North-star = active user. UTM IS present.",
+      "properties": [
+        "chapter_id",
+        "chapter_number",
+        "chapter_title",
+        "novel_id",
+        "novel_title",
+        "word_count",
+        "referrer",
+        "referring_domain",
+        "http_country_code",
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source",
+        "utm_term",
+        "path"
+      ]
+    },
+    "chapter_completed": {
+      "description": "Engaged reader. UTM IS present. Has time_spent_sec.",
+      "properties": [
+        "chapter_id",
+        "chapter_number",
+        "chapter_title",
+        "novel_id",
+        "novel_title",
+        "word_count",
+        "time_spent_sec",
+        "referrer",
+        "referring_domain",
+        "http_country_code",
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source"
+      ]
+    },
+    "user_registered": {
+      "description": "Registration event. NO UTM params \u2014 broken! Only has role, has_email, is_migrated.",
+      "properties": [
+        "role",
+        "has_email",
+        "is_migrated"
+      ]
+    },
+    "app_opened": {
+      "description": "PWA/app launch. NOT a business event. UTM present.",
+      "properties": [
+        "path",
+        "is_online",
+        "is_pwa_installed",
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source",
+        "http_country_code"
+      ]
+    },
+    "Application opened": {
+      "description": "Variant of app_opened. Seen in Overall Platform dashboard.",
+      "properties": [
+        "path",
+        "utm_*"
+      ]
+    },
+    "novel_detail_viewed": {
+      "description": "Discovery event. UTM present.",
+      "properties": [
+        "novel_id",
+        "novel_title",
+        "path",
+        "referrer",
+        "referring_domain",
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source",
+        "http_country_code"
+      ]
+    },
+    "novel_followed": {
+      "description": "Engagement event. UTM present.",
+      "properties": [
+        "novel_id",
+        "novel_title",
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source"
+      ]
+    },
+    "share_clicked": {
+      "description": "Engagement event. UTM present.",
+      "properties": [
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source"
+      ]
+    },
+    "comment_created": {
+      "description": "Engagement event. UTM present. Used in Campaign ROI dashboard.",
+      "properties": [
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source"
+      ]
+    },
+    "carousel_clicked": {
+      "description": "Discovery event. UTM present.",
+      "properties": [
+        "carousel_title",
+        "carousel_type",
+        "novel_id",
+        "novel_title",
+        "novel_order",
+        "path",
+        "referrer",
+        "referring_domain",
+        "utm_*"
+      ]
+    },
+    "novel_card_clicked": {
+      "description": "Discovery event. Has source, source_surface. UTM present.",
+      "properties": [
+        "novel_id",
+        "novel_title",
+        "source",
+        "source_surface",
+        "rank",
+        "path",
+        "referrer",
+        "utm_*"
+      ]
+    },
+    "$pageview": {
+      "description": "Page view. UTM present on landing. $host = novelpedia.net or author.novelpedia.net or demo.novelpedia.net. title = page title.",
+      "properties": [
+        "title",
+        "path",
+        "referrer",
+        "$host",
+        "utm_campaign",
+        "utm_content",
+        "utm_medium",
+        "utm_source",
+        "http_country_code"
+      ]
+    },
+    "$autocapture": {
+      "description": "Auto-captured interactions. UTM present (from URL). High volume.",
+      "properties": [
+        "utm_*",
+        "http_country_code",
+        "partner"
+      ]
+    },
+    "$web_vitals": {
+      "description": "Performance metrics. UTM present.",
+      "properties": [
+        "utm_*",
+        "http_country_code"
+      ]
+    },
+    "$pageleave": {
+      "description": "Exit event. UTM present.",
+      "properties": [
+        "utm_*",
+        "http_country_code"
+      ]
+    },
+    "$rageclick": {
+      "description": "User frustration signal. Minimal properties.",
+      "properties": []
+    },
+    "$identify": {
+      "description": "Person identification. $initial_utm_* set here for person.",
+      "properties": [
+        "$initial_utm_campaign",
+        "$initial_utm_source",
+        "$initial_utm_medium"
+      ]
+    },
+    "$set": {
+      "description": "Person property update (author side). Used to set author properties.",
+      "properties": [
+        "utm_*",
+        "http_country_code"
+      ]
+    },
+    "registration_nudge_shown": {
+      "description": "Shown to readers with 143+ chapters read. NOT UTM tracked.",
+      "properties": [
+        "chapter_id",
+        "novel_id",
+        "chapters_read",
+        "path"
+      ]
+    },
+    "streak_milestone_reached": {
+      "description": "Reader retention signal. Has streak_count.",
+      "properties": [
+        "streak_count",
+        "path"
+      ]
+    },
+    "profile_completed": {
+      "description": "Rare. is_author flag indicates reader vs author.",
+      "properties": [
+        "is_author",
+        "username"
+      ]
+    },
+    "install_prompt_shown": {
+      "description": "PWA install prompt. context = first_visit.",
+      "properties": [
+        "context",
+        "path",
+        "referrer"
+      ]
+    },
+    "install_prompt_dismissed": {
+      "description": "PWA install dismissed.",
+      "properties": [
+        "context",
+        "path"
+      ]
+    },
+    "novel_published": {
+      "description": "Author published a novel. NOT seen in raw events yet (very new).",
+      "properties": [
+        "novel_id",
+        "novel_title"
+      ]
+    },
+    "comment_posted": {
+      "description": "Author received a comment. NOT seen in raw events yet.",
+      "properties": [
+        "novel_id",
+        "chapter_id"
+      ]
+    }
+  },
+  "dashboards": {
+    "1458931": {
+      "name": "Executive Overview",
+      "description": "Binge Reader North Star + platform health"
+    },
+    "1458292": {
+      "name": "Reader App",
+      "description": "demo.novelpedia.net + novelpedia.net reader analytics"
+    },
+    "1458291": {
+      "name": "Author App",
+      "description": "author.novelpedia.net analytics"
+    },
+    "1484131": {
+      "name": "Campaign ROI & Activation",
+      "description": "Campaign + creative + platform activation"
+    },
+    "1458933": {
+      "name": "Content & Discovery Engine",
+      "description": "Product + content team optimization"
+    },
+    "1483188": {
+      "name": "Overall platform",
+      "description": "Cross-platform north star + core funnels"
+    },
+    "1483189": {
+      "name": "Reader platform",
+      "description": "Reader metrics across demo + novelpedia.net"
+    },
+    "1483191": {
+      "name": "Author platform",
+      "description": "Author metrics for author.novelpedia.net"
+    }
+  },
+  "real_events_list": [
+    "chapter_opened",
+    "chapter_completed",
+    "user_registered",
+    "app_opened",
+    "novel_detail_viewed",
+    "novel_followed",
+    "share_clicked",
+    "comment_created",
+    "carousel_clicked",
+    "novel_card_clicked",
+    "registration_nudge_shown",
+    "streak_milestone_reached",
+    "profile_completed",
+    "$pageview",
+    "$autocapture",
+    "$web_vitals",
+    "$pageleave",
+    "$rageclick",
+    "$exception",
+    "$set",
+    "$identify",
+    "install_prompt_shown",
+    "install_prompt_dismissed",
+    "novel_published",
+    "comment_posted",
+    "Application opened"
+  ],
+  "utm_filter_patterns": {
+    "exclude_internal": "utm_campaign is_not [\"novelpedia-launch\", \"novelpedia\"]",
+    "exclude_freewebnovel": "utm_source is_not [\"aads-ranobes\", \"aads-freewebnovel\"]",
+    "has_utm_campaign": "utm_campaign is_set",
+    "has_utm_content": "utm_content is_set"
+  },
+  "critical_bugs": [
+    {
+      "bug": "user_registered has NO UTM params",
+      "impact": "Cannot attribute registrations to campaigns. Downstream registration attribution is BROKEN.",
+      "fix": "Fix UTM persistence at registration page \u2014 set $initial_utm_* on person via identify call"
+    },
+    {
+      "bug": "0 funnels defined in PostHog",
+      "impact": "No funnel objects exist. All funnel-based queries will 404. Must use TrendsQuery event series instead.",
+      "fix": "Build funnels via UI or API, or query via TrendsQuery with event series"
+    },
+    {
+      "bug": "0 cohorts defined",
+      "impact": "Cohort-based queries will return empty. Use person property filters instead.",
+      "fix": "Create cohorts manually or use person property filters"
+    },
+    {
+      "bug": "Reader platform dashboard (1483189) queries ONLY demo.novelpedia.net",
+      "impact": "novelpedia.net reader data is not in this dashboard. Binge reader metrics may be incomplete.",
+      "fix": "Update dashboard tiles to include novelpedia.net OR create separate reader dashboard"
+    },
+    {
+      "bug": "Author events (novel_published, comment_posted) not in raw event stream",
+      "impact": "Author platform dashboard may have empty tiles. Author funnel skills will return 0.",
+      "fix": "Verify author event instrumentation is firing on author.novelpedia.net"
+    }
+  ],
+  "event_database": {
+    "total_events": 206489,
+    "total_types": 44,
+    "total_distinct_users": 5405,
+    "period": "30 days",
+    "last_verified": "2026-04-29",
+    "verified": true,
+    "critical_bugs": [
+      "user_registered: 0% UTM at event AND person level \u2014 CRITICAL \u2014 registration ROI unmeasurable",
+      "chapter_completed: 43.5% unattributable at person level \u2014 WARNING",
+      "chapter_opened: 45.2% unattributable at person level \u2014 WARNING",
+      "comment_created: 0% UTM at both levels \u2014 WARNING \u2014 author dopamine dark"
+    ],
+    "corrected_claims": {
+      "chapter_completed_90_events": "CORRECTED: 1,382 events, 36.3% evt UTM / 56.5% pers UTM",
+      "chapter_completed_0pct_utm": "CORRECTED: 36.3% event UTM, 56.5% person UTM",
+      "user_registered_5_events": "CORRECTED: 191 events",
+      "share_clicked_0_events": "CORRECTED: 25 events, 16% event UTM",
+      "comment_created_0_events": "CORRECTED: 60 events, 0% UTM at both levels",
+      "identify_broken": "CORRECTED: 202 events, actively working"
+    }
+  }
+}

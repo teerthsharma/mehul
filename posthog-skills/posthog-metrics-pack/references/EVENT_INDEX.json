@@ -1,0 +1,346 @@
+{
+  "$autocapture": {
+    "count": 62172,
+    "users": 2659,
+    "evt_utm": 13.6,
+    "pers_utm": 17.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "$pageview": {
+    "count": 39741,
+    "users": 5405,
+    "evt_utm": 21.2,
+    "pers_utm": 24.4,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "novel_detail_viewed": {
+    "count": 26527,
+    "users": 3998,
+    "evt_utm": 72.3,
+    "pers_utm": 48.8,
+    "tier": "WARNING",
+    "verdict": "PARTIAL"
+  },
+  "app_opened": {
+    "count": 17864,
+    "users": 4707,
+    "evt_utm": 52.7,
+    "pers_utm": 39.5,
+    "tier": "WARNING",
+    "verdict": "PARTIAL"
+  },
+  "$web_vitals": {
+    "count": 15216,
+    "users": 3549,
+    "evt_utm": 25.7,
+    "pers_utm": 29.2,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "$pageleave": {
+    "count": 9219,
+    "users": 4407,
+    "evt_utm": 40.2,
+    "pers_utm": 34.0,
+    "tier": "WARNING",
+    "verdict": "PARTIAL"
+  },
+  "$set": {
+    "count": 5050,
+    "users": 2881,
+    "evt_utm": 80.2,
+    "pers_utm": 80.2,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "$exception": {
+    "count": 4533,
+    "users": 3595,
+    "evt_utm": 4.0,
+    "pers_utm": 4.7,
+    "tier": "WARNING",
+    "verdict": "DARK"
+  },
+  "chapter_opened": {
+    "count": 4517,
+    "users": 608,
+    "evt_utm": 34.4,
+    "pers_utm": 54.8,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "novel_card_clicked": {
+    "count": 3525,
+    "users": 743,
+    "evt_utm": 8.5,
+    "pers_utm": 12.9,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "carousel_clicked": {
+    "count": 2308,
+    "users": 612,
+    "evt_utm": 9.0,
+    "pers_utm": 15.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "streak_milestone_reached": {
+    "count": 1731,
+    "users": 319,
+    "evt_utm": 3.0,
+    "pers_utm": 11.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "chapter_completed": {
+    "count": 1382,
+    "users": 270,
+    "evt_utm": 36.3,
+    "pers_utm": 56.5,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "install_prompt_shown": {
+    "count": 1191,
+    "users": 1153,
+    "evt_utm": 41.9,
+    "pers_utm": 39.3,
+    "tier": "WARNING",
+    "verdict": "PARTIAL"
+  },
+  "$rageclick": {
+    "count": 723,
+    "users": 282,
+    "evt_utm": 14.8,
+    "pers_utm": 16.2,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "registration_nudge_shown": {
+    "count": 659,
+    "users": 210,
+    "evt_utm": 23.8,
+    "pers_utm": 53.1,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "install_prompt_dismissed": {
+    "count": 207,
+    "users": 206,
+    "evt_utm": 21.7,
+    "pers_utm": 17.4,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "chapter_published": {
+    "count": 205,
+    "users": 20,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "WARNING",
+    "verdict": "DARK"
+  },
+  "$identify": {
+    "count": 202,
+    "users": 116,
+    "evt_utm": 1.5,
+    "pers_utm": 1.5,
+    "tier": "WARNING",
+    "verdict": "DARK"
+  },
+  "profile_completed": {
+    "count": 198,
+    "users": 197,
+    "evt_utm": 0.0,
+    "pers_utm": 1.5,
+    "tier": "WARNING",
+    "verdict": "DARK"
+  },
+  "registration_nudge_dismissed": {
+    "count": 197,
+    "users": 159,
+    "evt_utm": 41.6,
+    "pers_utm": 64.5,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "user_registered": {
+    "count": 191,
+    "users": 191,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "CRITICAL",
+    "verdict": "BROKEN"
+  },
+  "notification_clicked": {
+    "count": 153,
+    "users": 35,
+    "evt_utm": 0.0,
+    "pers_utm": 3.3,
+    "tier": "WARNING",
+    "verdict": "DARK"
+  },
+  "reply_click": {
+    "count": 63,
+    "users": 16,
+    "evt_utm": 6.3,
+    "pers_utm": 7.9,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "comment_created": {
+    "count": 60,
+    "users": 21,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "WARNING",
+    "verdict": "DARK"
+  },
+  "install_completed": {
+    "count": 54,
+    "users": 34,
+    "evt_utm": 9.3,
+    "pers_utm": 18.5,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "reply_submit_success": {
+    "count": 46,
+    "users": 13,
+    "evt_utm": 4.3,
+    "pers_utm": 6.5,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "install_prompt_clicked": {
+    "count": 39,
+    "users": 38,
+    "evt_utm": 2.6,
+    "pers_utm": 2.6,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "author_profile_created": {
+    "count": 38,
+    "users": 1,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "user_identified": {
+    "count": 38,
+    "users": 1,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "report_open": {
+    "count": 31,
+    "users": 7,
+    "evt_utm": 0.0,
+    "pers_utm": 16.1,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "report_submit": {
+    "count": 26,
+    "users": 4,
+    "evt_utm": 0.0,
+    "pers_utm": 19.2,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "share_clicked": {
+    "count": 25,
+    "users": 16,
+    "evt_utm": 16.0,
+    "pers_utm": 16.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "novel_created": {
+    "count": 25,
+    "users": 21,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "novel_published": {
+    "count": 22,
+    "users": 19,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "review_submitted": {
+    "count": 20,
+    "users": 13,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "novel_followed": {
+    "count": 19,
+    "users": 13,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "registration_nudge_clicked": {
+    "count": 13,
+    "users": 13,
+    "evt_utm": 38.5,
+    "pers_utm": 61.5,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "import_request_created": {
+    "count": 8,
+    "users": 7,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "content_flagged": {
+    "count": 8,
+    "users": 4,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "image_uploaded": {
+    "count": 8,
+    "users": 1,
+    "evt_utm": 0.0,
+    "pers_utm": 0.0,
+    "tier": "INFO",
+    "verdict": "LOW"
+  },
+  "thread_collapse_toggle": {
+    "count": 4,
+    "users": 2,
+    "evt_utm": 50.0,
+    "pers_utm": 100.0,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  },
+  "reply_submit_fail": {
+    "count": 1,
+    "users": 1,
+    "evt_utm": 100.0,
+    "pers_utm": 100.0,
+    "tier": "HEALTHY",
+    "verdict": "GOOD"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "bridge_version": "2.0.0",
+  "project_id": "314999",
+  "base_url": "https://app.posthog.com",
+  "capabilities": {
+    "get_event_series": {
+      "description": "PRIMARY - Use this for all funnel/metric queries",
+      "api_endpoint": "/api/projects/314999/events/",
+      "method": "GET",
+      "params": [
+        "event",
+        "after",
+        "limit",
+        "properties"
+      ],
+      "replaces": [
+        "get_funnel",
+        "get_trend"
+      ],
+      "notes": "Funnel API returns 404, insights returns 403. Use events API + Python aggregation."
+    },
+    "get_dashboard": {
+      "description": "Get dashboard with all tiles",
+      "api_endpoint": "/api/projects/314999/dashboards/{id}/",
+      "method": "GET",
+      "status": "works"
+    },
+    "get_person": {
+      "description": "Get person profile with properties",
+      "api_endpoint": "/api/projects/314999/persons/?id={distinct_id}",
+      "method": "GET",
+      "notes": "Check for $initial_utm_* for attribution"
+    },
+    "get_cohort": {
+      "description": "WARNING - 0 cohorts exist",
+      "api_endpoint": "/api/projects/314999/cohorts/",
+      "method": "GET",
+      "status": "returns_empty"
+    },
+    "get_feature_flag": {
+      "description": "WARNING - 0 feature flags exist",
+      "api_endpoint": "/api/projects/314999/feature_flags/",
+      "method": "GET",
+      "status": "returns_empty"
+    }
+  },
+  "dashboards": {
+    "1458931": "Executive Overview",
+    "1458292": "Reader App",
+    "1458291": "Author App",
+    "1484131": "Campaign ROI",
+    "1458933": "Content and Discovery",
+    "1483188": "Overall Platform",
+    "1483189": "Reader Platform",
+    "1483191": "Author Platform"
+  },
+  "critical_bugs": [
+    "user_registered has no UTM params - registration attribution broken",
+    "All funnel IDs return 404 - use events API",
+    "Insights/trends API returns 403 - use events API",
+    "0 cohorts exist",
+    "0 feature flags exist",
+    "Author events (novel_published, comment_posted) not firing",
+    "Reader platform dashboard (1483189) only queries demo.novelpedia.net"
+  ]
+}
